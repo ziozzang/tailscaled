@@ -1,6 +1,6 @@
 #!/bin/bash
+# curl -L https://raw.githubusercontent.com/ziozzang/tailscaled/main/run_tailscaled.sh | bash
 
-#!/bin/bash
 CONT_NAME=tailscaled
 IMAGE_NAME=ziozzang/tailscaled
 docker rm -f ${CONT_NAME}  || true
